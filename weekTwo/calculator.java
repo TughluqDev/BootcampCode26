@@ -18,11 +18,14 @@ public class calculator {
         else if (operation.equals("Division")){
             divide(num1, num2);
         }
+        else{
+            System.out.println("A non applicable operation has been selected!");
+        }
 
 
     }
     
-    
+
     public static void add(int num1, int num2){
         int sum = num1 + num2;
         System.out.println("Your answer is " + sum);
